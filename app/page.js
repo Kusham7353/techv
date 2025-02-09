@@ -32,12 +32,21 @@ export default function Home() {
             {/* <button className="mt-6 bg-customBlue text-white px-4 py-2 rounded-lg shadow hover:bg-customBlue3">
               Volunteers' list
             </button> */}
-            <button
+            {/* <button
              onClick={() => window.open("https://ishaan0709.github.io/helo2/", "_blank")}
              className="mt-6 bg-customBlue text-white px-4 py-2 rounded-lg shadow hover:bg-customBlue3"
             >
             Volunteers' list
-            </button>
+            </button> */}
+            <a
+           href="https://ishaan0709.github.io/helo2/"
+           target="_blank"
+           rel="noopener noreferrer"
+           className="mt-6 bg-customBlue text-white px-4 py-2 rounded-lg shadow hover:bg-customBlue3 inline-block text-center"
+           >
+           Volunteers' List 
+          </a>
+
 
           </div>
           <div className="flex-1">
